@@ -1,32 +1,4 @@
-# import random
 
-# subjects =[
-
-# ]
-
-
-
-# actions =[
-   
-# ]
-
-# places_or_things = [
-   
-
-# ]
-
-# while True:
-#     subject = random.choice(subjects)
-#     action = random.choice(actions)
-#     place_or_thing = random.choice(places_or_things)
-
-#     headline = F"BREAKING NEWS : {subject} {action} {place_or_thing}"
-#     print("\n" + headline)
-
-#     user_input = input("\n Do you want another headline? (yes/no)").strip().lower()
-#     if user_input != "yes":
-#         break
-# print("\n Thank for used fake news generator . have a fun day")
 
 from flask import Flask, render_template
 import random
@@ -107,3 +79,4 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
